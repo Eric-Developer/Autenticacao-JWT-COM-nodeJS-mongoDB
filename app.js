@@ -9,11 +9,6 @@ dontenv.config();
 
 const app = Express(); 
 
-// Body Parser 
-
-app.use(bodyParser.urlencoded({extended:true}));
-app.use(bodyParser.json());
-
 // json response
 app.use(Express.json())
 
